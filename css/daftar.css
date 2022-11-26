@@ -3,105 +3,123 @@
     padding: 0;
         
     }
-.logo{
 
-    border: none ! important;
-    
-       height: 400px;
-       width: 500px;
-       margin-right: 100px;
-       position: relative;
-       top: 50px;
-       left: 100px;
-   
-   
-   }
-   .form-control{
-       border-style: none;
-       border-width: 25px;
-       border-radius: 20px;
-       background-color: rgb(124, 121, 121);
-       overflow-x: hidden;
-       height: 120%;
-    
-         
-       
-       
-   }
-   .btn{
-       border-style: none;
-       border-color: white;
-       border-width: 27px;
-       border-left-width: 27px;
-       border-radius: 20px;
-       background-color:#000000;
-   }
-   .img-fluid{
-       width: 50px;
-       height: 50px;  
-       background-color: rgb(247, 242, 242);
-   }
+    html{
+        overflow-x: hidden;    
+        overflow: hidden;
+    }
       
    .bagiankanan{
        background: #fdfdfd;
-   
-   
    }
-       
-   
-   .from-label{
-       background-color: white;
-       ;
+
+   .tulisandaftar {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: #3E3E3E;
+   }
+   .sudahpunyaakun {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 300;
+        color: #747474;
    }
    
-   html{
-   overflow-x: hidden;    
-   overflow: hidden;
+   .sudahpunyaakun a {
+        text-decoration: none;
+        color: #FFAE5D;
    }
-   ::-webkit-scrollbar{
-   width: 0px;
+
+   .mt-3 {
+        font-family: 'Poppins', sans-serif;
    }
+
+   .form-label{
+        font-weight: 600;
+    }   
+
+   .form-control{
+    border-width: 25px;
+    border-radius: 106px;
+    overflow-x: hidden;
+    height: 120%;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.05); 
+    }
+
+    .pernyataanmenyetujui {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: #3E3E3E;
+   }
+   
+   .pernyataanmenyetujui a {
+        text-decoration: none;
+        color: #FFAE5D;
+   }
+   .atau {
+        margin: 5%;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color: #3E3E3E; 
+   }
+  
   
    
    .text{
        align-items: flex-end;
    }
-   .logo1{
+ 
    
-       border-radius: 1000px;
-      
-   
-   }
-   
-   .brand h3{
-       font-family: 'EB Garamond', serif;
-       
-   }
-   .w-50 {
-       color: white;
-   }
-   .text-center{
-       margin-top: 50px;
-   }
    .bg-gambarkiri{
-    background-image: url('../img/daftar.png');
+        background-image: url('../img/daftar.png');
+        /* background-repeat: no-repeat;
+        background-size: contain; */
 
    }
+   .bg-gambarkiri::after {
+	content: '';
+	display: block;
+	width: 50%;
+	height: 100%;
+	background: rgba(62, 62, 62, 0.5);
+	position: absolute;
+	bottom: 0;
+}
 
    .tulisan{
         position: absolute;
         color: white;
         margin-left: 100px;
         margin-top: 96px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-size: 70px;
+
       
    }
+
+   .btn-google{
+       border: 1px solid rgba(0, 0, 0, 0.25);
+       box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.05);
+       border-radius: 106px;
+       background: #FFFFFF;
+       font-family: 'Poppins', sans-serif;
+   }
+   .btn-google img  {
+          align-items: left;
+          text-align: justify;
+          display:inline-block;
+          /* gajalannnnn gambarnya gabisa kekiri */
+          width: 7%;
+     }
+
+     .btn-buatakun{
+          border: 1px solid rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.05);
+          border-radius: 106px;
+          background: #FFAE5D;
+          font-family: 'Poppins', sans-serif;
+          color: white;
+          font-weight: 700;
+      }
  
-  a{
-text-decoration: none;   
-color:white;   
-  }
-  .back-button {
-    background-color:white;
-}
